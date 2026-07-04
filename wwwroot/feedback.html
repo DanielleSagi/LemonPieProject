@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lemon Pie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="feedback_style.css">
+</head>
+<body>
+    <div id="shared-header"></div>
+    <div class="site-content">
+        <aside class="side-banner banner-left"></aside>
+        <main>
+            <section>
+                <h2>Rate the recipe</h2>
+                <p>
+                    Hi, I would appreciate if you could take a moment to grade my recipe.
+                    Please mark the number of stars (1 being the lowest, 5 being the highest) which you think represent how good is my recipe.
+                    Each time you rate my recipe, the server will remember you star-rate and calculate the average rate so far
+                </p>
+
+                <div class="stars" id="star-rating">
+                    <span class="star" data-value="5">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="1">&#9733;</span>
+                </div>
+                <div class="rating-text" id="rating-output">The average rating is not available</div>
+            </section>
+        </main>
+        <div class="side-banner banner-right"></div>
+    </div>
+    <div id="shared-footer"></div>
+    <script src="script.js"></script>
+    <script src="feedback_script.js"></script>
+</body>
+</html>

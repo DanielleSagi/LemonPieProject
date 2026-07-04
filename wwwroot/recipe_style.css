@@ -1,0 +1,51 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    table-layout: fixed;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;/*מבוצע אוטומטית*/
+    border-bottom: 1px solid #ddd;
+}
+
+.table_col1 {
+    width: 50px;
+}
+.table_col2 {
+    width: 250px;
+}
+.table_col3 {
+}
+
+th {
+    background-color: #a8a073d6;
+    color: white;
+}
+
+tr.selected-row {
+    background-color: #fff3b287 !important;
+}
+    tr.selected-row input[type="checkbox"] { /* מי שהוא אינפוט מסוג צאקבוקס שהוא בן של מי שהוא מסוג TR והקלאס שלו הוא מה שאחרי הנקודה*/
+        accent-color: #a79428;
+    }
+
+tr:hover {
+    background-color: #dbdbdb73;
+}
+
+.summary-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+}
+
+.counter {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}

@@ -1,0 +1,33 @@
+.hidden-image {
+    /* max-width: 400px;*/
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.hidden-div {
+    display: none;
+}
+
+.show-button {
+    background-color: #fff7ce;
+    border: 3px solid #ffeb7f;
+    color: #836a58;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 12px 32px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.show-button:hover {
+    background-color: #FFEAA1;
+    transform: scale(1.02);
+}
+ul {
+    list-style-type: square;
+}
